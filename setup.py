@@ -34,10 +34,10 @@ setup(
     author="Sheena Davitt",
     author_email='aroy@alum.mit.edu',
     url='https://github.com/SheenaDub/systeminfocookie',
-    packages=find_packages(include=['/workspacecomp30670/systeminfocookie']),
+    packages=find_packages(include=['systeminfocookie']),
     entry_points={
         'console_scripts': [
-            'systeminfocookie=systeminfocookie.cli:main',
+            'systeminfocookie=systeminfocookie.sys1:main',
         ],
     },
     include_package_data=True,
